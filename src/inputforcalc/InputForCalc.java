@@ -1,13 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Difference calculator
+ * 1/10/18
  */
 
 package inputforcalc;
 import java.util.Scanner;
 /**
- *
  * @author wizwa9381
  */
 public class InputForCalc {
@@ -17,16 +15,20 @@ public class InputForCalc {
      */
     public static void main(String[] args) {
         Scanner keyedInput = new Scanner(System.in);
+        //Variables
         double number1,number2,answer;
+        //Input numbers
         System.out.println("Finding the difference. "); 
         System.out.print("Enter the fist number: ");
         number1 = keyedInput.nextDouble();
         System.out.print("Enter the second number: ");
         number2 = keyedInput.nextDouble();
+        //Calculation
         answer = number1 + number2;
+        //Show
         System.out.println("The difference is " + answer + ".");
+        //Finish
         keyedInput.close();
-        // TODO code application logic here
     }
     
 }
