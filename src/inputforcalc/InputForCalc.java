@@ -1,5 +1,5 @@
 /*
- * Difference calculator
+ * Sum calculator
  * 1/10/18
  */
 
@@ -18,7 +18,7 @@ public class InputForCalc {
         //Variables
         double number1,number2,answer;
         //Input numbers
-        System.out.println("Finding the difference. "); 
+        System.out.println("Finding the sum. "); 
         System.out.print("Enter the fist number: ");
         number1 = keyedInput.nextDouble();
         System.out.print("Enter the second number: ");
@@ -26,7 +26,7 @@ public class InputForCalc {
         //Calculation
         answer = number1 + number2;
         //Show
-        System.out.println("The difference is " + answer + ".");
+        System.out.println("The sum is " + answer + ".");
         //Finish
         keyedInput.close();
     }
